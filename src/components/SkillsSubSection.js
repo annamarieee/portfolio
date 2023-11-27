@@ -1,24 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./SkillsSubsection.css";
-
-const skillsSubSection = [
-  {
-    name: "Oracle CC&B",
-    description: "Accenture",
-    years: "",
-  },
-  {
-    name: "Python",
-    description: "lorem ipsum",
-    years: "",
-  },
-  {
-    name: "Java",
-    description: "Accenture",
-    years: "",
-  },
-];
+import skillsSubSection from "../portfolioData/skillsSubSection";
+import ProgressBar from "react-bootstrap/ProgressBar";
 
 function SkillsSubSection() {
   return (
@@ -29,9 +13,7 @@ function SkillsSubSection() {
             <li key={idx}>
               <span>{skillsSubSection.name}</span>
               <br />
-              {skillsSubSection.description}
-              <br />
-              {skillsSubSection.years}
+              <ProgressBar now={skillsSubSection.percentage} variant="info" />
             </li>
           ))}
         </ul>

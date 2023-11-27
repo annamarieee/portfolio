@@ -2,19 +2,19 @@ const certificates = [
   {
     title: "Cloud Computing",
     description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "Cloud computing is a general term for anything that involves delivering hosted services over the internet. These services are divided into three main categories or types of cloud computing: infrastructure as a service (IaaS), platform as a service (PaaS) and software as a service (SaaS).",
     image: "/images/certificates/Cloud.jpg",
   },
   {
     title: "Oracle Utilities - Customer Cloud Service",
     description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "An Oracle Utilities CCS Certified Implementation Professional has demonstrated the knowledge required to Implement and Configure the Service, including Managing Customer Information and Financial Transactions, etc.",
     image: "/images/certificates/CCS.jpg",
   },
   {
     title: "Oracle Cloud Infrastructure - Foundations",
     description:
-      "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "The Oracle Cloud Infrastructure (OCI) Foundations certification is for individuals who intend to demonstrate fundamental knowledge of public cloud services provided by Oracle Cloud Infrastructure (OCI).",
     image: "/images/certificates/Foundations.jpg",
   },
 ];

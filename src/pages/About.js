@@ -25,10 +25,9 @@ function About() {
           <Col>
             <h1>About Me</h1>
             <p className="about-me">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              I have a 12-months experience as an Associate Software Engineer at
+              Accenture and a 3-months experience as an intern at ROC.PH. I have
+              gained skills in both company as well as by self-studying.
             </p>
             <AboutNavbar setActiveSubSection={setActiveSubSection} />
 

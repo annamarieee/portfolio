@@ -7,23 +7,15 @@
   height: 100%;
   margin-left: 150px;
   margin-top: 150px;
-  /* animation: fadeIn 2s; */
+  animation: fadeIn 2s;
   animation-name: greetings;
   animation-duration: 1.5s;
 }
 
-.greeting-title {
+.greeting-title,
+.role {
   font-family: "Roboto Slab", serif;
 }
-
-/* @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 
 @keyframes greetings {
   from {
