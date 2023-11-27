@@ -1,0 +1,7 @@
+.Home {
+  background-image: url(/public/images/bgpic.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

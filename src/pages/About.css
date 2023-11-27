@@ -1,0 +1,19 @@
+.About {
+  background-image: url(/public/images/plain.png);
+  height: 100vh;
+  width: 100vw;
+  padding-top: 80px;
+  margin-top: 300px;
+}
+
+.about-me {
+  margin-right: 100px;
+  align-items: center;
+}
+
+.pic {
+  margin-left: 150px;
+  height: 100%;
+  width: 350px;
+  border-radius: 25px;
+}

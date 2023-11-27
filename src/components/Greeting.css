@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap");
+
+.greeting-body {
+  justify-content: center !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 150px;
+  margin-top: 150px;
+  /* animation: fadeIn 2s; */
+  animation-name: greetings;
+  animation-duration: 1.5s;
+}
+
+.greeting-title {
+  font-family: "Roboto Slab", serif;
+}
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+@keyframes greetings {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

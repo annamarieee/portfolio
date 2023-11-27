@@ -1,0 +1,23 @@
+.tab-contents {
+  list-style: square;
+  margin: 10px 0;
+  background-color: rgba(254, 235, 237, 0.969);
+  border-radius: 15px;
+  padding: 30px 10px;
+  animation-name: aboutNavBar;
+  animation-duration: 1s;
+}
+
+.tab-contents span {
+  color: #ff6687;
+  font-size: 16px;
+}
+
+@keyframes aboutNavBar {
+  from {
+    transform: translateY(-300px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn&display=swap");
+
+.CustomNavbar {
+  font-family: "Vollkorn", serif;
+  font-size: large;
+  background-image: url(/public/images/plain.png);
+  padding-left: 150px;
+  padding-right: 150px;
+}
