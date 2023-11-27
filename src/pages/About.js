@@ -7,11 +7,12 @@ import ExperienceSubSection from "../components/ExperienceSubSection";
 import EducationSubSection from "../components/EducationSubSection";
 
 function About() {
-  const [activeSubSection, setActiveSubSection] = useState("");
+  const [activeSubSection, setActiveSubSection] = useState("skills");
 
   return (
     <div id="about" className="About">
       <Container>
+        <br></br>
         <Row>
           <Col>
             <Image
